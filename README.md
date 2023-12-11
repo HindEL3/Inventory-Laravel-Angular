@@ -3,7 +3,7 @@ You will find here a comprehensive presentation featuring Use Cases and a concep
 And here are some images that showcase my frontend:
 
 
-<img width="420" alt="Capture d'écran 2023-12-11 220843" src="https://github.com/HindEL3/Inventory-Laravel-Angular/assets/153544537/ba8cd070-df3a-44fb-8e5f-81f5a7e9b30a">
+<img width="420" height="340" alt="Capture d'écran 2023-12-11 220843" src="https://github.com/HindEL3/Inventory-Laravel-Angular/assets/153544537/ba8cd070-df3a-44fb-8e5f-81f5a7e9b30a">
 
 <img width="420" alt="Capture d'écran 2023-12-11 222605" src="https://github.com/HindEL3/Inventory-Laravel-Angular/assets/153544537/7ecdda0c-8e8e-4953-89b9-9dd3f6cc6d1b">
 
