@@ -1,0 +1,40 @@
+<main class="form-signin">
+  <form [formGroup]="registerForm" (ngSubmit)="handleRegisterFormSubmit()" *ngIf="!loadingForm">
+    <img class="mb-4" src="/assets/img/goat1.jpg" alt="" width="100%">
+    <h1 class="h3 mb-3 fw-normal text-center">Register</h1>
+    <div class="text-center text-small">
+      <span>Register to log in to the worlds worst web store</span>
+    </div>
+
+    <div class="form-floating">
+      <input type="text" class="form-control" id="name" placeholder="John Smith..." formControlName="name">
+      <label for="floatingInput">Name</label>
+    </div>
+
+    <div class="form-floating">
+      <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com" formControlName="email">
+      <label for="floatingInput">Email address</label>
+    </div>
+
+    <div class="input-group mb-3">
+     <span id="eye" class="input-group-text" (mousedown)="showPassword()" (mouseup)="hidePassword()" (mouseleave)="hidePassword()">
+        <span class="fa fa-eye"></span>
+      </span>
+      <div class="form-floating">
+        <input type="{{passwordType}}" class="form-control" id="floatingPassword" placeholder="Password" formControlName="password">
+        <label for="floatingPassword">Password</label>
+      </div>
+    </div>
+
+    <!-- Button that is disabled if the form is invalid -->
+    <button class="btn btn-primary w-100" type="submit" [disabled]="!registerForm.valid">Register</button>
+
+    <hr/>
+
+    <div class="text-center">
+      <span class="text-muted">Remembered you have an account, Login below</span>
+    </div>
+    <a [routerLink]="['/login']" class="btn btn-success w-100" type="button">Login</a>
+
+  </form>
+</main>
