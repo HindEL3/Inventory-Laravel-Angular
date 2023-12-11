@@ -1,4 +1,4 @@
-<img width="351" alt="Capture d'écran 2023-12-11 220843" src="https://github.com/HindEL3/Inventory-Laravel-Angular/assets/153544537/1f293edd-aae3-4519-a8b5-774e3078959a">You will find here a comprehensive presentation featuring Use Cases and a conceptual data model: [Inventory (1).pdf](https://github.com/HindEL3/Inventory-Laravel-Angular/files/13641771/Inventory.1.pdf)
+You will find here a comprehensive presentation featuring Use Cases and a conceptual data model: [Inventory (1).pdf](https://github.com/HindEL3/Inventory-Laravel-Angular/files/13641771/Inventory.1.pdf)
 
 And here are some images that showcase my frontend:
 
